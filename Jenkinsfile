@@ -5,6 +5,7 @@ pipeline {
       steps {
         sh 'docker --version'
         sh 'ls -ltr'
+        sh 'docker ps'
       }
     }
 
