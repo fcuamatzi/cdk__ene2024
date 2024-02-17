@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Environment') {
       steps {
-        sh 'ls -ltr'
+        sh '''ls -ltr
+docker --version'''
       }
     }
 
