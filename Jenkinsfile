@@ -37,6 +37,12 @@ pipeline {
           }
         }
 
+        stage('TestConversor') {
+          steps {
+            sh 'python3 ./01_test_api.py'
+          }
+        }
+
       }
     }
 
