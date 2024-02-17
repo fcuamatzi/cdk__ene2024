@@ -5,7 +5,7 @@ import requests
 import json
 
 
-API_URL = 'http://0.0.0.0:3001/saludos/Javier'
+API_URL = 'http://0.0.0.0:3001/saludo/Javier'
 
 #Test POST request
 
