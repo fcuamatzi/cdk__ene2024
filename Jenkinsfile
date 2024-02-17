@@ -22,5 +22,11 @@ pipeline {
       }
     }
 
+    stage('Test') {
+      steps {
+        sh 'python3 ./00_test_api.py'
+      }
+    }
+
   }
 }
