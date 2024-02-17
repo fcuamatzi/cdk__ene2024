@@ -4,7 +4,7 @@ import requests
 import json
 
 
-myobj = {"numero": 15,"base_actual": "10#","base_deseada": 8}
+myobj = {"numero": 15,"base_actual": 10,"base_deseada": 8}
 
 API_URL = 'http://0.0.0.0:3001/convertir'
 
