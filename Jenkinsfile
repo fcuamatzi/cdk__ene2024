@@ -52,5 +52,11 @@ pipeline {
       }
     }
 
+    stage('upload_image') {
+      steps {
+        sh 'cat version_image | xargs bash Scripts/upload.sh'
+      }
+    }
+
   }
 }
