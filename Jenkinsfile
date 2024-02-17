@@ -15,5 +15,12 @@ pipeline {
       }
     }
 
+    stage('Run') {
+      steps {
+        sh 'bash run.sh'
+        sh 'docker logs test_api01'
+      }
+    }
+
   }
 }
